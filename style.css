@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(165, 42, 42, 0.2);
+}
+nav {
+    background: url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 8px black;
+    background-position: center;
+}
+.searchbox {
+    background-color: rgb(99, 18, 18, 1);
+    position: sticky;
+    top: 60px;
+    left: 15%;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+.searchbox::placeholder {
+    color: white;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+}
+.img1 {
+    height: 150px;
+    width: 150px;
+}
+.img1 > img:hover {
+    box-shadow: 0px 18px 18px black;
+    height: 152px;
+    width: 152px;
+}
+h4 {
+    margin: 15%;
+}
+h1 {
+    color: brown ;
+}
+.description {
+    width: 90%;
+    margin: auto;
+    margin-block: 50px;
+    background-color: rgb(165, 42, 42, 0.3);
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 0px 8px brown;
+}
+p {
+    color: brown;
+    line-height: 20px;
+}
+ol {
+    padding: 5px;
+}
+li {
+    padding: 5px;
+    margin: 5px;
+    color: brown;
+}
